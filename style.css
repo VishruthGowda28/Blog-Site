@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+  }
+  
+/* Search Box and Bloggers List CSS Code */
+
+.search-box {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-input {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+button[type="submit"] {
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.bloggers-list {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.bloggers-list h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bloggers-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bloggers-list li {
+    margin-bottom: 20px;
+}
+
+.bloggers-list li a h3{
+  color: black;
+}
+
+.blogger-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: auto;
+}
+
+.blogger-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.blogger-profile h3 {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.blogger-profile p {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.blogger-profile a {
+    text-decoration: none;
+    color: blue;
+}
+
+.blogger-profile a:hover {
+    color: #555;
+}
+
+.blogger-profile a:visited{
+    color: purple;
+}
+
+/* For Home PAge */
+div.home{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+}
+
+/* For About Page */
+div.about{
+    display: flex;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    white-space: pre-line;
+}
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-left: 3px;
+  }
+  
